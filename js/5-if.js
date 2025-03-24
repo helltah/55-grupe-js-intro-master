@@ -67,3 +67,11 @@ if (temp3 < 22) {
 } else {
     console.log('Karšta 😎');
 }
+
+console.clear();
+
+if(4 === '4') {
+    console.log('tenkina');
+} else{
+    console.log("NE-tenkina");
+}
