@@ -57,7 +57,7 @@ console.log(f);
 const g = sum(-7, 15);
 console.log(g);
 
-console.clear();
+
 
 // 100 -> 121 Eur
 // 200 -> 242 Eur
@@ -78,7 +78,6 @@ console.log(p2);
 const p3 = priceWithVAT(73);
 console.log(p3);
 
-console.clear();
 
 // Jonas -> Zodzis "Jonas" yra sudarytas is 5 raidziu.
 // Maryte -> Zodzis "Maryte" yra sudarytas is 6 raidziu.
@@ -99,7 +98,6 @@ console.log(nl2);
 console.log(nl3);
 console.log(nl4);
 
-console.clear();
 
 // 5   -> Gautas skaicius: 5.
 // -13 -> Gautas skaicius: -13.
@@ -118,7 +116,7 @@ console.log(gn1);
 console.log(gn2);
 console.log(gn3);
 
-console.clear();
+;
 
 // 2, 2     ->  2 + 2 = 4
 // 7, 5     ->  7 + 5 = 12
@@ -134,7 +132,7 @@ console.log(sum(7, 5));
 console.log(sum(-7, 15));
 console.log(sum(748562514562, 148562514562));
 
-console.clear();
+
 
 // ND - perdaryti analogiskai su -, * ir / operacijomis
 
@@ -152,7 +150,7 @@ console.log(sum(7,5));
 console.log(sum(2,2));
 console.log(sum(10,10));
 
-console.clear()
+
 
 
 

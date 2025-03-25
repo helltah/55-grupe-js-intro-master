@@ -37,7 +37,7 @@ console.log(empty.length);
 console.log(luckyNumbers.length);
 console.log(students.length);
 
-console.clear();
+
 
 const numbers = [10, 2, 8, 4, 6];
 
@@ -76,7 +76,7 @@ sentence2 += dictionary[5] + ', ';
 sentence2 += dictionary[6] + '.';
 console.log(sentence2);
 
-console.clear();
+;
 
 let index = 0;
 let sentence3 = 'Patiekalui reikes: ';
