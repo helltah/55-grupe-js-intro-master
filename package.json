@@ -4,6 +4,10 @@
     "description": "Labas rytas, Lietuva! Ačiū! Ką tu? Ką vakare?",
     "main": "index.js",
     "scripts": {
+        "intervalsum": "node --watch ./task/interval-sum.js",
+        "multitable": "node --watch ./task/multi-tablet.js",
+        "for": "node --watch ./js/8-for.js",
+        "mark-average": "node --watch ./task/marks-average.js",
         "multiply": "node --watch ./task/multiply.js",
         "typeof": "node --watch ./js/7-typeof.js",
         "array": "node --watch ./js/6-array.js",
