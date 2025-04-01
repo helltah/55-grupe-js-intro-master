@@ -72,7 +72,7 @@ console.log(`${n} * 5 = ${n * 5}`);
 }*/
 
 
-console.clear();
+
 
 const marks = [10, 2, 5, 312, 1  ];
 
