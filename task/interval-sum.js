@@ -3,7 +3,7 @@ function intervalSum(start, end){
     
     if (start === 0){
         sum = (end * (end + 1)) / 2
-        
+
     }
 
     for (let i = start; i <= end; i++){

@@ -94,5 +94,9 @@ function textSize5(text) {
         return 'Tuscias tekstas.';
     }
 }
+console.log(textSize(''));
+console.log(textSize('Labas'));
+console.log(textSize('Labanakt!'));
+console.log(textSize('Labanaktis'));
 
 
