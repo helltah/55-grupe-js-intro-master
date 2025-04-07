@@ -131,5 +131,5 @@ for (let i = 0; i < 1000000; i++) {
     const index = randomNumber(0, 1); 
     counts2[index]++;   
 }
-
 console.log(counts2);
+

@@ -4,6 +4,8 @@
     "description": "Labas rytas, Lietuva! Ačiū! Ką tu? Ką vakare?",
     "main": "index.js",
     "scripts": {
+        "names": "node --watch ./task/names-split-join.js",
+        "method:array": "node --watch ./js/13-method-array.js",
         "money-format": "node --watch ./task/money-format.js",
         "method:number": "node --watch ./js/12-method-number.js",
         "valid-name": "node --watch ./task/valid-name.js",
