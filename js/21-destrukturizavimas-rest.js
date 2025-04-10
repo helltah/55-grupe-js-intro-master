@@ -1,0 +1,156 @@
+const a1 = [1, 11, 111];
+const a2 = [2, 22, 222];
+const a3 = [3, 33, 333];
+const a4 = [4, 44, 444];
+
+// [1, 11, 111, 2, 22, 222]
+const a12 = a1.concat(a2);
+console.log(a12);
+
+const b12 = [...a1,...a2];
+console.log(b12);
+
+const b423 = [...a4, ...a2, ...a3];
+console.log(b423);
+
+const b333 = [...a3, ...a3, ...a3];
+console.log(b333);
+
+// [7, 4, 44, 444, 88]
+const c1 = [7,...a4, 88];
+console.log(c1);
+
+console.clear();
+
+const o1 = {name: 'Jonas'};
+const o2 = {age: 99};
+const o3 = {isMarried: true};
+
+const o12 = {...o1,...o2};
+console.log(o12);
+
+const o123 = {...o1, ...o2, ...o3};
+console.log(o123);
+
+const p1 = {a: 1}
+const p2 = {b: 2}
+
+const p3 = {c: 3, a: 7}
+
+const p123 = {...p1, ...p2, ...p3};
+console.log(p123);
+
+const p321 = {...p3, ...p2, ...p1};
+console.log(p321);
+
+const p4 = {d: 4, ...p3, c: 99};
+console.log(p4);
+console.clear();
+
+const  marks = [10, 2, 8, 4, 6];
+const [first, second, ...rest] = marks;
+
+console.log(first);
+console.log(second);
+console.log(rest);
+
+const names = ['Jonas', 'Maryte', 'Petras', 'Ona'];
+const n1 =names[0];
+const n2 =names[1];
+const n34 = names.slice(2);
+
+console.log(n1);
+console.log(n2);
+console.log(n34);
+
+const [x, y, ...z] = names;
+console.log(x);
+console.log(y);
+console.log(z);
+
+
+const mix = [1, 'asd'];
+const [m1, m2, m3, ...mRest] =mix;
+
+console.log(m1);
+console.log(m2);
+console.log(m3);
+console.log(mRest);
+
+const person = {
+    address: 'Miestas g.7',
+    name: 'Jonas',
+    age: 99,
+    isMarried: true,
+};
+const { name, age, ...p } = person;
+
+
+console.log(name);
+console.log(age);
+console.log(p);
+
+const students =[
+    {name: 'Jonas', age: 99},
+    {name: 'Maryte', age: 88},
+    {name: 'Petras', age: 77},
+    {name: 'Ona', age: 66},
+];
+
+//Studentui, vardu Jonas, yra 99 metai.
+for (let i = 0; i < students.length; i++ ) {
+    const student = students[i];
+    const name = student.name;
+    const age = student.age;
+    const result = `Studentui , varud ${name}, yra ${age} metai.`
+    console.log(result);
+}
+console.log('--------');
+
+//for of
+for (const student of students) {
+    const name = student.name;
+    const age = student.age;
+    const result = `Studentui , varud ${name}, yra ${age} metai.`
+    console.log(result);
+}
+
+
+console.log('--------');
+
+//for of
+for (const{name, age} of students) {
+    const result = `Studentui , varud ${name}, yra ${age} metai.`
+    console.log(result);
+}
+
+console.clear();
+
+const numbers = [
+[0],    
+[1, 11],
+[2, 22, 222],
+[3, 33, 333, 3333],
+[4],
+[5],
+[6],
+
+];
+
+//Pirmas skaicius yra X ir dar yra Y papildomu skaiciu.
+
+for (const numberList of numbers ) {
+    const [first, ...rest] = numberList;
+    //const first = numberList[0];
+    //const rest = numberList.slice(1);
+   console.log(numberList);
+   const result = `Pirmas skaicius yra ${first} ir dar yra ${rest.length} papildomu skaiciu.`
+   console.log(result);
+}
+
+
+console.clear();
+
+Math.min(1)
+Math.min(1, 2)
+
